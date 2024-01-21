@@ -286,7 +286,7 @@ class Credit extends Payment {
 //                 (k + 1) + " " +
 //                 customer1.orders[i].orderDetails[k].item.description +
 //                 " จำนวน " +
-//                 customer1.orders[i].orderDetails[k].kuantity +
+//                 customer1.orders[i].orderDetails[k].quantity +
 //                 " ราคา " +
 //                 customer1.orders[i].orderDetails[k].calcSubTotal() +
 //                 " บาท"
@@ -308,7 +308,7 @@ class Credit extends Payment {
 //                 (k + 1) + " " +
 //                 orderDetail.item.description +
 //                 " จำนวน " +
-//                 orderDetail.kuantity +
+//                 orderDetail.quantity +
 //                 " ราคา " +
 //                 orderDetail.calcSubTotal() +
 //                 " บาท"
