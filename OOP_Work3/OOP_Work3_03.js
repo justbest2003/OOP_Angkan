@@ -99,16 +99,14 @@ class Staff extends Person {
 
 const main = () => {
   const person1 = new Person("Kay", "Ban Kay");
-  const student1 = new Student(
-    "Kay",
-    "Kay House",
-    "Software Engineer",
-    65,
-    11400
-  );
-  const staff1 = new Staff("Kay", "Kay House", "npru", 11400);
+  const person2 = new Person("Best", "Ban Best");
+  const student1 = new Student(person1.name, person1.address, "SE", 65, 25000);
+  const staff1 = new Staff(person2.name, person2.address, "NPRU", 11400);
 
+  console.log(person1.toString());
+  console.log(person2.toString());
   console.log(student1.toString());
+  console.log(staff1.toString());
 };
 
 main();
